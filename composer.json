@@ -1,0 +1,20 @@
+{
+  "name": "webjump/module-trilha03",
+  "version": "1.0.0",
+  "description": "Trilha 03 de Back End da Webjump",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Webjump\\Trilha03\\": ""
+    }
+  }
+}

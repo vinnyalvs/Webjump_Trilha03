@@ -1,0 +1,16 @@
+{
+  "pet_kind": {
+    "column": {
+      "entity_id": true,
+      "name": true,
+      "description": true,
+      "created_at": true
+    },
+    "index": {
+      "PET_KIND_ENTITY_ID": true
+    },
+    "constraint": {
+      "PRIMARY": true
+    }
+  }
+}
